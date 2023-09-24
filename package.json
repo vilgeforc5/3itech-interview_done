@@ -1,0 +1,21 @@
+{
+  "name": "3itech_intask",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass src/styles.scss -o dist",
+    "css:watch": "npm run css && node-sass src/styles.scss -wo dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.68.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
